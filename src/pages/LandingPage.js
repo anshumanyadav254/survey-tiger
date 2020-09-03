@@ -1,0 +1,18 @@
+import React from 'react';
+import {Link} from 'react-router-dom';
+import './create.css';
+const LandingPage=function(){
+   return(
+       <>
+       <div>
+        <Link to='/create'>
+       <button className="btn">Create survey</button>
+       </Link>
+       </div>
+       <div>
+       <button className="btn">Take Survey</button>
+       </div>
+       </>
+   )
+}
+export default LandingPage;
